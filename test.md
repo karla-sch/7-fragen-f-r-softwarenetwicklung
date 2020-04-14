@@ -22,6 +22,7 @@ liegen abgerufen und in das lokale Repository mit `git merge` übernommen.
 [( )  ( )  (X) ]       Unlock 
 ***********************************************************************
 
+                                {{2}}
 Bei der Sequentialisierung handelt es sich um die pessimistische Versionsverwaltung, bei der einzelne Dateien vor einer Änderung durch den Benutzer gesperrt und nach Abschluss selbiger wieder freigegeben werden. 
 
 ***********************************************************************
@@ -35,6 +36,7 @@ Bei der Sequentialisierung handelt es sich um die pessimistische Versionsverwalt
 [( )  (X)  ( ) ]       Modify 
 ***********************************************************************
 
+                                {{3}}
 Hierbei handelt es sich um die optimistische Versionsverwaltung, bei der gleichzeitige Änderungen durch mehrere Benutzer an einer Datei möglich sind, da diese Änderungen anschließend automatisch oder manuell zusammengeführt werde (*Merge*). 
 
 ***********************************************************************
@@ -45,6 +47,7 @@ Hierbei handelt es sich um die optimistische Versionsverwaltung, bei der gleichz
 Ein Paar von Änderung aus Dokument 1 bzw. Dokument 2 gegenüber einem Ausgangsdokument kann unverträglich sein, wenn die Abbildung beider Änderungen in einem gemeinsamen Dokument nicht möglich ist. In diesem Fall spricht man von einem [[Konflikt]]. 
 ***********************************************************************
 
+                                {{4}}
 Im Falle eines Konflikts muss eine der betroffenen Änderungen weggelassen werden. Welche das sein soll kann anhand von *Interaktivem* oder *Nicht-interaktivem Mischen* entschieden werden. 
 
 ***********************************************************************
@@ -58,6 +61,7 @@ Im Falle eines Konflikts muss eine der betroffenen Änderungen weggelassen werde
 [[?]] *Interaktion* = Wechselbeziehung zwischen Handlungspartnern 
 ***********************************************************************
 
+                                {{5}}
 Denkbare Entscheidungen für die Lösung eines Konflikts durch *Interaktives Mischen* wären 
     * Übernahme einer der Änderungen 
     * Übernahme keiner Änderung 
@@ -73,6 +77,7 @@ Denkbare Entscheidungen für die Lösung eines Konflikts durch *Interaktives Mis
 [[?]] Beim 2-Wege-Mischen ist die Erzeugung eines neuen Dokuments das Ziel, während beim 3-Wege-Mischen eine weiterentwickelte Version des ursprünglichen Dokuments entstehen soll. Übertrage dieses Wissen auf die Ausgangsdokumente um die richtigen Definitionen zuordnen zu können. 
 ***********************************************************************
 
+                                {{6}}
 Beim *2-Wege-Mischen* werden die gemeinsamen Komponenten und die individuellen Teilmengen voneinander unabhängiger Dokumente vereint. 
 Beim *3-Wege-Mischen* werden (möglichst) alle Änderungen am Ursprungsdokument in eine weiterentwickelte Version des selbigen integriert. 
 
