@@ -14,7 +14,7 @@ liegen abgerufen und in das lokale Repository mit `git merge` übernommen.
 
 ***********************************************************************
 
-**2. Exklusives Bearbeiten (Sequentialisierung): Kreuze in der richtigen Reihenfolge an!** 
+**2.) Exklusives Bearbeiten (Sequentialisierung): Kreuze in der richtigen Reihenfolge an!** 
 
 [[1.] [2.] [3.]]
 [( )  (X)  ( ) ]       Modify 
