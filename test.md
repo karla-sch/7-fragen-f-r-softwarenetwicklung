@@ -1,7 +1,7 @@
 ## 7 Fragen in 7 Minuten
 
 
-**1.) Der Befehl `git pull` realisiert zwei Schritte:**
+**1. Der Befehl `git pull` realisiert zwei Schritte:**
 
 [( )] `git branch` und `git merge`
 [(X)] `git fetch` und `git merge`
@@ -14,7 +14,7 @@ liegen abgerufen und in das lokale Repository mit `git merge` übernommen.
 
 ***********************************************************************
 
-**2.) Exklusives Bearbeiten (Sequentialisierung): Kreuze in der richtigen Reihenfolge an!** 
+**2. Exklusives Bearbeiten (Sequentialisierung): Kreuze in der richtigen Reihenfolge an!** 
 
 [[1.] [2.] [3.]]
 [( )  (X)  ( ) ]       Modify 
