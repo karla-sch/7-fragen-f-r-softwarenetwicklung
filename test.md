@@ -43,8 +43,29 @@ Hierbei handelt es sich um die optimistische Versionsverwaltung, bei der gleichz
 **4. Vervollständige die Definition:** 
 
 Ein Paar von Änderung aus Dokument 1 bzw. Dokument 2 gegenüber einem Ausgangsdokument kann unverträglich sein, wenn die Abbildung beider Änderungen in einem gemeinsamen Dokument nicht möglich ist. In diesem Fall spricht man von einem [[Konflikt]]. 
+***********************************************************************
 
-**5. Kreuze die zugehörige Definition an! **
+Im Falle eines Konflikts muss eine der betroffenen Änderungen weggelassen werden. Welche das sein soll kann anhand von *Interaktivem* oder *Nicht-interaktivem Mischen* entschieden werden. 
+
+***********************************************************************
+
+
+**5. Wobei wird ein Entwickler unmittelbar in den Mischprozess eingebunden?** 
+
+[(X)] Interaktives Mischen 
+[( )] Nicht-interaktives Mischen 
+[[?]] Was bedeutet das Wort *interaktiv*? 
+[[?]] *Interaktion* = Wechselbeziehung zwischen Handlungspartnern 
+***********************************************************************
+
+Denkbare Entscheidungen für die Lösung eines Konflikts durch *Interaktives Mischen* wären 
+    * Übernahme einer der Änderungen 
+    * Übernahme keiner Änderung 
+    * Übernahme einer modifizierten Änderung 
+
+***********************************************************************
+
+**6. Kreuze die zugehörige Definition an! **
 
 [[2-Wege-Mischen] [3-Wege-Mischen]]
 [       ( )              (X)      ]       Mischen von Dokumenten gemeinsamen Ursprungs 
@@ -58,8 +79,8 @@ Beim *3-Wege-Mischen* werden (möglichst) alle Änderungen am Ursprungsdokument 
 ***********************************************************************
 
 
-**6. Welche Form der Versionsverwaltung findet noch heute in manchen Büroanwendungen (bspw. *Word*) Verwendung?** 
+**7. Welche Form der Versionsverwaltung findet noch heute in manchen Büroanwendungen (bspw. *Word*) Verwendung?** 
 [( )] Verteilte Versionsverwaltung 
 [( )] Zentrale Versionsverwaltung 
 [(X)] Lokale Versionsverwaltung 
-[[?]] Die genannten Anwendungen speichern die Versionen eines Dokuments in der Datei des Dokuments selbst - dabei handelt es sich um eine `?`Speicherung. 
+[[?]] Die genannten Anwendungen speichern die Versionen eines Dokuments in der Datei des Dokuments selbst - dabei handelt es sich um eine `?` Speicherung. 
