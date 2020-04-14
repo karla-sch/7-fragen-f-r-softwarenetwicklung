@@ -65,7 +65,7 @@ Denkbare Entscheidungen für die Lösung eines Konflikts durch *Interaktives Mis
 
 ***********************************************************************
 
-**6. Kreuze die zugehörige Definition an! **
+**6. Kreuze die zugehörige Definition an!**
 
 [[2-Wege-Mischen] [3-Wege-Mischen]]
 [       ( )              (X)      ]       Mischen von Dokumenten gemeinsamen Ursprungs 
