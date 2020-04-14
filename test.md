@@ -16,10 +16,10 @@ liegen abgerufen und in das lokale Repository mit `git merge` übernommen.
 
 **2. Exklusives Bearbeiten (Sequentialisierung): Kreuze in der richtigen Reihenfolge an!** 
 
-[[1.] [2.] [3.]]
-[( )  (X)  ( ) ]       Modify 
-[(X)  ( )  ( ) ]       Lock 
-[( )  ( )  (X) ]       Unlock 
+[[1.] [2.] [3.]]  
+[( )  (X)  ( ) ]       Modify   
+[(X)  ( )  ( ) ]       Lock   
+[( )  ( )  (X) ]       Unlock   
 ***********************************************************************
 
 Bei der Sequentialisierung handelt es sich um die pessimistische Versionsverwaltung, bei der einzelne Dateien vor einer Änderung durch den Benutzer gesperrt und nach Abschluss selbiger wieder freigegeben werden. 
@@ -29,10 +29,10 @@ Bei der Sequentialisierung handelt es sich um die pessimistische Versionsverwalt
 
 **3. Kollaboratives Arbeiten mit Mischen: Kreuze in der richtigen Reihenfolge an!** 
 
-[[1.] [2.] [3.]]
-[(X)  ( )  ( ) ]       Copy 
-[( )  ( )  (X) ]       Merge  
-[( )  (X)  ( ) ]       Modify 
+[[1.] [2.] [3.]]   
+[(X)  ( )  ( ) ]       Copy    
+[( )  ( )  (X) ]       Merge     
+[( )  (X)  ( ) ]       Modify    
 ***********************************************************************
 
 Hierbei handelt es sich um die optimistische Versionsverwaltung, bei der gleichzeitige Änderungen durch mehrere Benutzer an einer Datei möglich sind, da diese Änderungen anschließend automatisch oder manuell zusammengeführt werde (*Merge*). 
@@ -42,7 +42,7 @@ Hierbei handelt es sich um die optimistische Versionsverwaltung, bei der gleichz
 
 **4. Vervollständige die Definition:** 
 
-Ein Paar von Änderung aus Dokument 1 bzw. Dokument 2 gegenüber einem Ausgangsdokument kann unverträglich sein, wenn die Abbildung beider Änderungen in einem gemeinsamen Dokument nicht möglich ist. In diesem Fall spricht man von einem...  
+Ein Paar von Änderung aus Dokument 1 bzw. Dokument 2 gegenüber einem Ausgangsdokument kann unverträglich sein, wenn die Abbildung beider Änderungen in einem gemeinsamen Dokument nicht möglich ist. In diesem Fall spricht man von einem...     
 
 [[Konflikt]] 
 ***********************************************************************
@@ -54,25 +54,25 @@ Im Falle eines Konflikts muss eine der betroffenen Änderungen weggelassen werde
 
 **5. Wobei wird ein Entwickler unmittelbar in den Mischprozess eingebunden?** 
 
-[(X)] Interaktives Mischen 
-[( )] Nicht-interaktives Mischen 
+[(X)] Interaktives Mischen    
+[( )] Nicht-interaktives Mischen     
 [[?]] Was bedeutet das Wort *interaktiv*? 
-[[?]] *Interaktion* = Wechselbeziehung zwischen Handlungspartnern 
+[[?]] *Interaktion* = Wechselbeziehung zwischen Handlungspartnern    
 ***********************************************************************
 
 Denkbare Entscheidungen für die Lösung eines Konflikts durch *Interaktives Mischen* wären 
-    * Übernahme einer der Änderungen 
-    * Übernahme keiner Änderung 
-    * Übernahme einer modifizierten Änderung 
+    * Übernahme einer der Änderungen    
+    * Übernahme keiner Änderung    
+    * Übernahme einer modifizierten Änderung    
 
 ***********************************************************************
 
 **6. Kreuze die zugehörige Definition an!**
 
-[[2-Wege-Mischen] [3-Wege-Mischen]]
-[       ( )              (X)      ]       Mischen von Dokumenten gemeinsamen Ursprungs 
-[       (X)              ( )      ]       Mischen unabhängiger Dokumente 
-[[?]] Beim 2-Wege-Mischen ist die Erzeugung eines neuen Dokuments das Ziel, während beim 3-Wege-Mischen eine weiterentwickelte Version des ursprünglichen Dokuments entstehen soll. Übertrage dieses Wissen auf die Ausgangsdokumente um die richtigen Definitionen zuordnen zu können. 
+[[2-Wege-Mischen] [3-Wege-Mischen]]   
+[       ( )              (X)      ]       Mischen von Dokumenten gemeinsamen Ursprungs    
+[       (X)              ( )      ]       Mischen unabhängiger Dokumente    
+[[?]] Beim 2-Wege-Mischen ist die Erzeugung eines neuen Dokuments das Ziel, während beim 3-Wege-Mischen eine weiterentwickelte Version des ursprünglichen Dokuments entstehen soll. Übertrage dieses Wissen auf die Ausgangsdokumente um die richtigen Definitionen zuordnen zu können.    
 ***********************************************************************
 
 Beim *2-Wege-Mischen* werden die gemeinsamen Komponenten und die individuellen Teilmengen voneinander unabhängiger Dokumente vereint. 
@@ -82,7 +82,7 @@ Beim *3-Wege-Mischen* werden (möglichst) alle Änderungen am Ursprungsdokument 
 
 
 **7. Welche Form der Versionsverwaltung findet noch heute in manchen Büroanwendungen (bspw. *Word*) Verwendung?** 
-[( )] Verteilte Versionsverwaltung 
-[( )] Zentrale Versionsverwaltung 
-[(X)] Lokale Versionsverwaltung 
-[[?]] Die genannten Anwendungen speichern die Versionen eines Dokuments in der Datei des Dokuments selbst - dabei handelt es sich um eine `?` Speicherung. 
+[( )] Verteilte Versionsverwaltung    
+[( )] Zentrale Versionsverwaltung    
+[(X)] Lokale Versionsverwaltung    
+[[?]] Die genannten Anwendungen speichern die Versionen eines Dokuments in der Datei des Dokuments selbst - dabei handelt es sich um eine `?` Speicherung.    
