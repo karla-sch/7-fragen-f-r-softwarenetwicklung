@@ -10,5 +10,5 @@ narrator: Deutsch Female
 __5. Wobei geht es beim 2-Wege-Mischen bzw. 3-Wege-Mischen?
 
 (2-Wege-Mischen) (3-Wege-Mischen) 
-[ [X]   [ ] ]       Erzeugung eines neuen Dokumentes
-[ [ ]   [X] ]       Integration der Änderungen in Urspungsdokument
+[    [X]              [ ]       ]       Erzeugung eines neuen Dokumentes
+[    [ ]              [X]       ]       Integration der Änderungen in Urspungsdokument
