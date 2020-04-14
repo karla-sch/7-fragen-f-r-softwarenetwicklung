@@ -1,7 +1,7 @@
 ## 7 Fragen in 7 Minuten
 
 
-**1. Der Befehl `git pull` realisiert zwei Schritte:**
+**1.) Der Befehl `git pull` realisiert zwei Schritte:**
 
 [( )] `git branch` und `git merge`
 [(X)] `git fetch` und `git merge`
@@ -40,7 +40,7 @@ Hierbei handelt es sich um die optimistische Versionsverwaltung, bei der gleichz
 ***********************************************************************
 
 
-**5. Wobei wird ein Entwickler unmittelbar in den Mischprozess eingebunden?** 
+## 5. Wobei wird ein Entwickler unmittelbar in den Mischprozess eingebunden?  
 
 [(X)] Interaktives Mischen 
 [( )] Nicht-interaktives Mischen 
