@@ -42,7 +42,7 @@ Hierbei handelt es sich um die optimistische Versionsverwaltung, bei der gleichz
 
 **4. Vervollständige die Definition:** 
 
-Ein Paar von Änderung aus Dokument 1 bzw. Dokument 2 gegenüber einem Ausgangsdokument kann unverträglich sein, wenn die Abbildung beider Änderungen in einem gemeinsamen Dokument nicht möglich ist. In diesem Fall spricht man von einem [[Konflikt]]. 
+Ein Paar von Änderung aus Dokument 1 bzw. Dokument 2 gegenüber einem Ausgangsdokument kann unverträglich sein, wenn die Abbildung beider Änderungen in einem gemeinsamen Dokument nicht möglich ist. In diesem Fall spricht man von einem Konflikt. 
 ***********************************************************************
 
 Im Falle eines Konflikts muss eine der betroffenen Änderungen weggelassen werden. Welche das sein soll kann anhand von *Interaktivem* oder *Nicht-interaktivem Mischen* entschieden werden. 
