@@ -1,2 +1,2 @@
 
-Ein Paar von Änderung aus D1 bzw. D2 gegenüber einen Ausgangsdokument D0 kann unverträglich sein, wenn die Abbildung beiden Änderungen in einem gemeinsamen Dokument nicht möglich ist. In diesem Fall spricht man von einem [[Konflikt]]. 
+Ein Paar von Änderung aus Dokument 1 bzw. Dokument 2 gegenüber einem Ausgangsdokument kann unverträglich sein, wenn die Abbildung beider Änderungen in einem gemeinsamen Dokument nicht möglich ist. In diesem Fall spricht man von einem [[Konflikt]]. 
